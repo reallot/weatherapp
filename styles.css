@@ -12,6 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    padding: 20px;
     background-image: url('assets/bg.jpg');
     background-size: cover;
     background-position: center;
@@ -20,13 +21,16 @@ body{
 
 .wrapper{
     width: 850px;
-    height: 1200px;
+    height: auto;
+    min-height: 600px;
+    max-height: 90vh;
     border-radius: 20px;
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     border: 1px solid rgba(255, 255, 255, 0.3);
+    overflow-y: auto;
 }
 
 .wrapper header{
@@ -270,4 +274,101 @@ header i{
 .details p{
     font-size: 28px;
     margin-top: -6px;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .wrapper {
+        width: 95%;
+        max-width: 600px;
+        margin: 10px;
+    }
+    
+    .wrapper header {
+        font-size: 28px;
+        padding: 20px 15px;
+    }
+    
+    .input-part :where(input, button) {
+        height: 80px;
+        font-size: 32px;
+    }
+    
+    .usage-info {
+        margin-top: 30px;
+        padding: 20px;
+    }
+    
+    .usage-info p {
+        font-size: 24px;
+    }
+    
+    .usage-info p:first-child {
+        font-size: 28px;
+    }
+    
+    .weather-part .temp {
+        font-size: 120px;
+    }
+    
+    .weather-part .weather {
+        font-size: 40px;
+    }
+    
+    .weather-part .location {
+        font-size: 40px;
+    }
+    
+    .column i {
+        font-size: 60px;
+    }
+    
+    .details .temp, .humidity span {
+        font-size: 28px;
+    }
+    
+    .details p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+    
+    .wrapper {
+        width: 100%;
+        margin: 5px;
+    }
+    
+    .wrapper header {
+        font-size: 24px;
+        padding: 15px 10px;
+    }
+    
+    .input-part :where(input, button) {
+        height: 70px;
+        font-size: 28px;
+    }
+    
+    .weather-part .temp {
+        font-size: 100px;
+    }
+    
+    .weather-part .weather {
+        font-size: 32px;
+    }
+    
+    .weather-part .location {
+        font-size: 32px;
+    }
+    
+    .usage-info p {
+        font-size: 20px;
+    }
+    
+    .usage-info p:first-child {
+        font-size: 24px;
+    }
 }
