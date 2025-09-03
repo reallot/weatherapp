@@ -69,11 +69,11 @@ header i{
 }
 .input-part .info-txt{
     display: none;
-    font-size: 30px;
+    font-size: 14px;
     text-align: center;
-    padding: 24px 20px;
-    border-radius: 15px;
-    margin-bottom: 20px;
+    padding: 12px 15px;
+    border-radius: 7px;
+    margin-bottom: 15px;
     font-weight: 500;
 }
 
@@ -209,11 +209,11 @@ header i{
     display: flex;
 }
 .weather-part img{
-    width: 200px;
+    width: 100px;
 }
 .weather-part .temp{
     display: flex;
-    font-size: 184px;
+    font-size: 72px;
     font-weight: 500;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
@@ -222,12 +222,12 @@ header i{
     font-weight: 600;
 }
 .weather-part .temp .deg{
-    font-size: 90px;
+    font-size: 36px;
     margin: 10px 5px 0 0;
     display: block;
 }
 .weather-part .weather{
-    font-size: 56px;
+    font-size: 24px;
     margin-bottom: 15px;
     text-transform: capitalize;
     color: #fff;
@@ -236,13 +236,13 @@ header i{
 .weather-part .location{
     display: flex;
     align-items: center;
-    font-size: 56px;
+    font-size: 24px;
     margin-bottom: 30px;
     color: #fff;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 .location i{
-    font-size: 44px;
+    font-size: 20px;
     margin-right: 5px;
 }
 .weather-part .bottom-details{
@@ -261,13 +261,13 @@ header i{
 }
 .column i{
     color: #43affc;
-    font-size: 90px;
+    font-size: 36px;
 }
 .column.humidity{
     border-left: 1px solid #bfbfbf;
 }
 .details .temp, .humidity span{
-    font-size: 40px;
+    font-size: 18px;
     font-weight: 500;
     margin-top: -4px;
     color: #fff;
@@ -275,11 +275,11 @@ header i{
 }
 .details .temp .deg{
     margin: 0;
-    font-size: 34px;
+    font-size: 16px;
     padding: 0 2px 0 1px;
 }
 .details p{
-    font-size: 28px;
+    font-size: 14px;
     margin-top: -6px;
 }
 

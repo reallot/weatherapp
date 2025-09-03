@@ -80,9 +80,9 @@ function weatherDetails(info) {
         infoTxt.classList.replace("pending", "error");
         infoTxt.innerHTML = `
             <div style="text-align: center;">
-                <img src="assets/message/not-found.png" alt="City Not Found" style="width: 300px; height: auto; margin-bottom: 30px;">
-                <p style="color: #e74c3c; font-size: 40px; font-weight: bold; margin: 0;">${inputField.value} city not found!</p>
-                <p style="color: #7f8c8d; font-size: 32px; margin-top: 16px;">Please enter a valid city name.</p>
+                <img src="assets/message/not-found.png" alt="City Not Found" style="width: 100px; height: auto; margin-bottom: 15px;">
+                <p style="color: #e74c3c; font-size: 16px; font-weight: bold; margin: 0;">${inputField.value} city not found!</p>
+                <p style="color: #7f8c8d; font-size: 14px; margin-top: 8px;">Please enter a valid city name.</p>
             </div>
         `;
     } else {
