@@ -15,7 +15,7 @@ A beautiful, modern weather application built with HTML, CSS, and JavaScript tha
 
 ## 🚀 Live Demo
 
-[View Live Demo](your-demo-link-here)
+[View Live Demo]((https://weatherapp-tau-gules.vercel.app/))
 
 ## 🛠️ Technologies Used
 
@@ -30,7 +30,7 @@ A beautiful, modern weather application built with HTML, CSS, and JavaScript tha
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/weather-app.git
+   git clone https://github.com/reallot/weatherapp.git
    cd weather-app
    ```
 
@@ -173,15 +173,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Boxicons](https://boxicons.com/) for beautiful icons
 - [Google Fonts](https://fonts.google.com/) for the Poppins font family
 
-## 📞 Support
-
-If you have any questions or need help, feel free to:
-- Open an issue on GitHub
-- Contact the maintainer
-- Check the documentation
-
----
-
 **Made with ❤️ by [Your Name]**
 
 *Enjoy checking the weather! 🌤️*
+
