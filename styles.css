@@ -22,10 +22,10 @@ body{
 }
 
 .wrapper{
-    width: 850px;
+    width: 400px;
     height: fit-content;
-    min-height: 500px;
-    max-height: 80vh;
+    min-height: 400px;
+    max-height: 70vh;
     border-radius: 20px;
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(15px);
@@ -38,9 +38,9 @@ body{
 
 .wrapper header{
     color: #fff;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 600;
-    padding: 25px 20px;
+    padding: 20px 15px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,14 +93,13 @@ header i{
 
 .input-part :where(input, button){
     width: 100%;
-    height: 120px;
+    height: 55px;
     border: none;
     outline: none;
-    border-radius: 15px;
-    font-size: 18px;
+    border-radius: 7px;
+    font-size: 16px;
     font-weight: 500;
     margin-bottom: 15px;
-    font-size: 40px;
 }
 
 .input-part input{
@@ -155,17 +154,17 @@ header i{
 
 .usage-info p{
     color: #fff;
-    font-size: 32px;
-    margin-bottom: 12px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 14px;
+    margin-bottom: 8px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     line-height: 1.4;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .usage-info p:first-child{
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 18px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
 }
 
 .usage-info p:last-child{
@@ -177,7 +176,7 @@ header i{
 }
 
 .input-part .seperator{
-    height: 12px;
+    height: 1px;
     width: 100%;
     margin: 25px 0;
     background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
@@ -191,8 +190,8 @@ header i{
     content: 'or';
     background: rgba(255, 255, 255, 0.2);
     color: #fff;
-    padding: 0 20px;
-    font-size: 45px;
+    padding: 0 15px;
+    font-size: 15px;
     font-weight: 500;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
     border-radius:50%;
