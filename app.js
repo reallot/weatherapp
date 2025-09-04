@@ -70,7 +70,7 @@ function requestApi(city) {
 function fetchData() {
     infoTxt.innerText = "Getting weather results...";
     infoTxt.classList.add("pending");
-    if(inputField.value == "kurdistan"){
+    if(inputField.value.toLowerCase() == "kurdistan"){
         return weatherDetails("kurdistan");
     }
     
