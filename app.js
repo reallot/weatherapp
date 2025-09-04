@@ -70,13 +70,17 @@ function requestApi(city) {
 function fetchData() {
     infoTxt.innerText = "Getting weather results...";
     infoTxt.classList.add("pending");
+    if(inputField.value == "kurdistan"){
+        return weatherDetails("kurdistan");
+    }
+    
     fetch(api)
         .then(response => response.json())
         .then(result => weatherDetails(result));
 }
 
 function weatherDetails(info) {
-    if (info.cod == "404") {
+    if (info.cod == "404" || info == "kurdistan") {
         infoTxt.classList.replace("pending", "error");
         infoTxt.innerHTML = `
             <div style="text-align: center;">
