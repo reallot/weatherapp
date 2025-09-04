@@ -173,7 +173,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Boxicons](https://boxicons.com/) for beautiful icons
 - [Google Fonts](https://fonts.google.com/) for the Poppins font family
 
-**Made with ❤️ by [Your Name]**
+**Made with ❤️ by reallot**
 
 *Enjoy checking the weather! 🌤️*
+
 
